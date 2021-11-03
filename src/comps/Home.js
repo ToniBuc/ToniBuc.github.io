@@ -19,7 +19,7 @@ function Home() {
                         <a href="mailto:tonibuconjic@gmail.com" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faEnvelope}/></a>
                     </div>
                     <div className={styles.Para}>
-                        <p>This is a test! Welcome to my portfolio!</p>
+                        <p>Hey there! Welcome to my portfolio!</p>
                     </div>
                 </div>
                 <img src="/images/me.png" className={styles.Avatar} alt="me" />

@@ -4,6 +4,7 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Marquee from './Marquee';
+import FadeIn from 'react-fade-in';
 
 function Home() {
     return (
@@ -25,7 +26,9 @@ function Home() {
                 <img src="/images/me.png" className={styles.Avatar} alt="me" />
             </div>
             <div className={styles.MarqueeDiv}>
-                <Marquee />
+                <FadeIn delay="700" transitionDuration="3000">
+                    <Marquee />
+                </FadeIn>
             </div>
         </div>
     )

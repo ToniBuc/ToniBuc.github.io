@@ -75,7 +75,21 @@ function Portfolio(){
                     </div>
                     <Carousel.Caption>
                         <div className={styles.Text}>
-                            <p>My portfolio.</p>
+                            <p>My portfolio. Made using React.</p>
+                        </div>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <div className={styles.Article}>
+                        <div className={styles.Icon}>
+                                <a href="https://github.com/ToniBuc/Old-Portfolio" target="_blank" className={styles.BigIcon}><FontAwesomeIcon icon={faUser} /></a>
+                                <p>Old Portfolio</p>
+                                <a href="https://github.com/ToniBuc/Old-Portfolio" target="_blank" className={styles.SmallIcon}><i class="devicon-github-original"></i></a>
+                        </div>
+                    </div>
+                    <Carousel.Caption>
+                        <div className={styles.Text}>
+                            <p>Old portfolio. Made without React.</p>
                         </div>
                     </Carousel.Caption>
                 </Carousel.Item>

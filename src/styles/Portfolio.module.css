@@ -1,0 +1,49 @@
+.Article {
+    height: 700px;
+    width: 100%;
+}
+.Text {
+    width: 50%;
+    margin: 0 auto;
+}
+    .Text p {
+        text-shadow: 8px 8px 4px black;
+        font-size:20px;
+        font-style:italic;
+    }
+.Icon {
+    text-align: center;
+    margin-top: 70px;
+}
+.Icon p {
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    display: inline-flex;
+    margin-top: 35px;
+    text-shadow: 8px 8px 4px black;
+}
+.SmallIcon {
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    text-shadow: 8px 8px 4px black;
+}
+.SmallIcon:hover{
+    color:white;
+}
+.BigIcon {
+    color: white;
+    filter: drop-shadow(10px 10px 17px black);
+    font-size: 320px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+.BigIcon:hover {
+    color:white;
+}

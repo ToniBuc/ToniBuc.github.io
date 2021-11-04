@@ -4,6 +4,7 @@ import styles from '../styles/Portfolio.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTooth, faKeyboard, faMusic, faUser, faFilm } from '@fortawesome/free-solid-svg-icons';
 import { SiAzuredevops } from "react-icons/si";
+import { GiCastle } from 'react-icons/gi';
 
 function Portfolio(){
     return (
@@ -34,6 +35,20 @@ function Portfolio(){
                     <Carousel.Caption>
                         <div className={styles.Text}>
                             <p>PeripheralTech is an ASP.NET Core desktop and mobile application for supporting the work of a store that offers ordering & customization of peripheral devices.</p>
+                        </div>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <div className={styles.Article}>
+                        <div className={styles.Icon}>
+                            <a href="https://github.com/ToniBuc/MyCastle" className={styles.BigIcon}><GiCastle style={{ width: "320px",height: "320px", filter: "drop-shadow(8px 8px 4px black)"}}/></a>
+                            <p>MyCastle</p>
+                            <a href="https://github.com/ToniBuc/MyCastle" target="_blank" className={styles.SmallIcon}><i className="devicon-github-original"></i></a>
+                        </div>
+                    </div>
+                    <Carousel.Caption>
+                        <div className={styles.Text}>
+                            <p>MyCastle is an image uploading web application made using React, along with Firebase for storage and authentication.</p>
                         </div>
                     </Carousel.Caption>
                 </Carousel.Item>

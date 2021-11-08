@@ -41,7 +41,7 @@ function Portfolio(){
                 <Carousel.Item>
                     <div className={styles.Article}>
                         <div className={styles.Icon}>
-                            <a href="https://github.com/ToniBuc/MyCastle" className={styles.BigIcon}><GiCastle style={{ width: "320px",height: "320px", filter: "drop-shadow(8px 8px 4px black)"}}/></a>
+                            <a href="https://github.com/ToniBuc/MyCastle" className={styles.BigIcon}><GiCastle /></a>
                             <p>MyCastle</p>
                             <a href="https://github.com/ToniBuc/MyCastle" target="_blank" className={styles.SmallIcon}><i className="devicon-github-original"></i></a>
                         </div>
@@ -71,7 +71,7 @@ function Portfolio(){
                         <div className={styles.Icon}>
                             <a href="https://dev.azure.com/fitba1752/seminarski_rad/_git/webapp" className={styles.BigIcon}><FontAwesomeIcon icon={faFilm} /></a>
                             <p>MyEntertainmentHub</p>
-                            <a href="https://dev.azure.com/fitba1752/seminarski_rad/_git/webapp" className={styles.SmallIcon}><SiAzuredevops style={{ width: "30px",height: "30px", filter: "drop-shadow(8px 8px 4px black)"}}/></a>
+                            <a href="https://dev.azure.com/fitba1752/seminarski_rad/_git/webapp" className={styles.SmallIcon}><SiAzuredevops/></a>
                         </div>
                     </div>
                     <Carousel.Caption>

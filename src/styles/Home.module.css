@@ -56,3 +56,36 @@
     margin-top: 10px;
     text-shadow: 8px 8px 4px black;
 }
+@media only screen and (max-width: 600px) {
+    .Main {
+        width: 90%;
+    }
+    .SubMain {
+        display: block;
+    }
+    .LinkIcons {
+        width: 100%;
+    }
+    .LinkIcons a {
+        text-align: center;
+        margin: 0 auto;
+        padding-left: 62px;
+        float: left;
+    }
+    .Para {
+        width: 100%;
+        float: none;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    .MarqueeDiv {
+        display: none;
+    }
+    .Avatar {
+        margin-top: 100px;
+        width: 70%;
+        height: 70%;
+    }
+}

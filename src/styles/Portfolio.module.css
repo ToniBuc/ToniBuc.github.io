@@ -47,3 +47,24 @@
 .BigIcon:hover {
     color:white;
 }
+@media only screen and (max-width: 600px) {
+    .Article {
+        height: 550px;
+    }
+    .BigIcon {
+        font-size: 150px;
+        margin-top:200px;
+    }
+    .SmallIcon{
+        font-size: 20px;
+    }
+    .Icon p {
+        font-size: 20px;
+    }
+    .Text {
+        width: 100%;
+    }
+    .Text p {
+        font-size: 15px;
+    }
+}

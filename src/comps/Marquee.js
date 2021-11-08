@@ -4,7 +4,6 @@ import styles from '../styles/Marquee.module.css';
 import { DiGithubBadge, DiHtml5, DiCss3, DiBootstrap } from "react-icons/di";
 import { SiAzuredevops, SiXamarin } from "react-icons/si";
 
-
 const MarqueeFunc = () => (
     <div style={{ position: "relative", width: "100%", height:"800px" }}>
     <Marquee velocity={25} minScale={0.9} resetAfterTries={200} scatterRandomly>
@@ -16,7 +15,6 @@ const MarqueeFunc = () => (
             <DiGithubBadge style={{
                 width: "70px",
                 height: "70px",
-                // transform: "rotate(-90deg)"
             }}/>
         </Motion>
         <Motion
@@ -27,7 +25,6 @@ const MarqueeFunc = () => (
             <DiHtml5 style={{
                 width: "70px",
                 height: "70px",
-                // transform: "rotate(-90deg)"
             }}/>
         </Motion>
         <Motion
@@ -38,7 +35,6 @@ const MarqueeFunc = () => (
             <DiCss3 style={{
                 width: "70px",
                 height: "70px",
-                // transform: "rotate(-90deg)"
             }}/>
         </Motion>
         <Motion
@@ -49,7 +45,6 @@ const MarqueeFunc = () => (
             <DiBootstrap style={{
                 width: "70px",
                 height: "70px",
-                // transform: "rotate(-90deg)"
             }}/>
         </Motion>
         <Motion
@@ -60,7 +55,6 @@ const MarqueeFunc = () => (
             <SiAzuredevops style={{
                 width: "70px",
                 height: "70px",
-                // transform: "rotate(-90deg)"
             }}/>
         </Motion>
         <Motion
@@ -71,7 +65,6 @@ const MarqueeFunc = () => (
             <SiXamarin style={{
                 width: "70px",
                 height: "70px",
-                // transform: "rotate(-90deg)"
             }}/>
         </Motion>
         <Motion

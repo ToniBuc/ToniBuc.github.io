@@ -5,6 +5,7 @@
 .Text {
     width: 50%;
     margin: 0 auto;
+    margin-bottom: 60px;
 }
     .Text p {
         text-shadow: 8px 8px 4px black;
@@ -13,7 +14,7 @@
     }
 .Icon {
     text-align: center;
-    margin-top: 70px;
+    margin-top: 130px;
 }
 .Icon p {
     color: white;

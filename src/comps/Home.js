@@ -26,7 +26,7 @@ function Home() {
                 <img src="/images/me.png" className={styles.Avatar} alt="me" />
             </div>
             <div className={styles.MarqueeDiv}>
-                <FadeIn delay="700" transitionDuration="3000">
+                <FadeIn delay="1100" transitionDuration="5000">
                     <Marquee />
                 </FadeIn>
             </div>

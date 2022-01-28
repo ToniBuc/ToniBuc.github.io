@@ -10,7 +10,7 @@
     position:relative;
 }
 .MarqueeDiv {
-    z-index: -5;
+    z-index: 1;
     opacity: 0.25;
     height: 850px;
     margin-top:-700px;
@@ -38,39 +38,62 @@
     z-index: 10;
 }
 .LinkIcons{
-    width:40%;
+    width:50%;
     float:left;
     height:100%;
 }
     .LinkIcons a {
         color: white;
         filter: drop-shadow(7px 7px 6px black);
-        font-size:30px;
+        font-size:26px;
         padding-left:50px;
         text-decoration: none;
+        float: left;
+    }
+    .LinkIcons a:hover {
+        color:rgb(134, 15, 170);
     }
 .Para {
-    width: 60%;
     font-style: italic;
     float: right;
-    margin-top: 10px;
     text-shadow: 8px 8px 4px black;
+    width: 50%;
+    margin-top: 6px;
 }
-@media only screen and (max-width: 600px) {
+
+@media only screen and (max-width:1919px){
+    .NameDiv h1 {
+        font-size: 60px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
     .Main {
         width: 90%;
+        margin-top: 55px;
     }
     .SubMain {
         display: block;
     }
     .LinkIcons {
         width: 100%;
+        text-align: center;
+        float: none;
     }
     .LinkIcons a {
-        text-align: center;
+        float:none;
+        padding-left: 0px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    .NameDiv {
+        width: 306px;
+        padding-left: 3px;
+        padding-right: 3px;
         margin: 0 auto;
-        padding-left: 62px;
-        float: left;
+    }
+    .NameDiv h1 {
+        font-size: 39px;
     }
     .Para {
         width: 100%;
@@ -85,7 +108,7 @@
     }
     .Avatar {
         margin-top: 100px;
-        width: 70%;
-        height: 70%;
+        width: 250px;
+        height: 249px;
     }
 }

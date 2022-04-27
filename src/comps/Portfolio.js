@@ -2,9 +2,9 @@ import React from "react";
 import Carousel from 'react-bootstrap/Carousel';
 import styles from '../styles/Portfolio.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTooth, faKeyboard, faMusic, faUser, faFilm } from '@fortawesome/free-solid-svg-icons';
+import { faTooth, faKeyboard, faMusic, faUser, faFilm, card } from '@fortawesome/free-solid-svg-icons';
 import { SiAzuredevops } from "react-icons/si";
-import { GiCastle } from 'react-icons/gi';
+import { GiCastle, GiWhistle } from 'react-icons/gi';
 
 function Portfolio(){
     return (
@@ -105,6 +105,20 @@ function Portfolio(){
                     <Carousel.Caption>
                         <div className={styles.Text}>
                             <p>Old portfolio. Made without React.</p>
+                        </div>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <div className={styles.Article}>
+                        <div className={styles.Icon}>
+                                <a href="https://github.com/ToniBuc/RefereeBot" target="_blank" className={styles.BigIcon}><GiWhistle /></a>
+                                <p>RefereeBot</p>
+                                <a href="https://github.com/ToniBuc/RefereeBot" target="_blank" className={styles.SmallIcon}><i class="devicon-github-original"></i></a>
+                        </div>
+                    </div>
+                    <Carousel.Caption>
+                        <div className={styles.Text}>
+                            <p>RefereeBot is a Discord bot made using the Discord.js library and Sequelize ORM for SQLite</p>
                         </div>
                     </Carousel.Caption>
                 </Carousel.Item>

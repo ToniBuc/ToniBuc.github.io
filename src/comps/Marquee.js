@@ -2,7 +2,7 @@ import React from "react";
 import Marquee, { Motion, randomIntFromInterval } from "react-marquee-slider";
 import styles from '../styles/Marquee.module.css';
 import { DiGithubBadge, DiHtml5, DiCss3, DiBootstrap, DiAngularSimple } from "react-icons/di";
-import { SiAzuredevops, SiXamarin, SiTypescript, SiOpencv } from "react-icons/si";
+import { SiAzuredevops, SiXamarin, SiTypescript, SiOpencv, SiSqlite } from "react-icons/si";
 
 const MarqueeFunc = () => (
     <div style={{ position: "relative", width: "100%", height:"800px" }}>
@@ -12,9 +12,37 @@ const MarqueeFunc = () => (
         direction={Math.random() > 0.5 ? "clockwise" : "counterclockwise"}
         velocity={10}
         radius={50}>
+            <div className={styles.IconDiv}>
+                <i class="devicon-discordjs-plain"></i>
+            </div>
+        </Motion>
+        <Motion
+        initDeg={randomIntFromInterval(0, 360)}
+        direction={Math.random() > 0.5 ? "clockwise" : "counterclockwise"}
+        velocity={10}
+        radius={50}>
+            <SiSqlite style={{
+                width: "50px",
+                height: "50px",
+            }}/>
+        </Motion>
+        <Motion
+        initDeg={randomIntFromInterval(0, 360)}
+        direction={Math.random() > 0.5 ? "clockwise" : "counterclockwise"}
+        velocity={10}
+        radius={50}>
+            <div className={styles.IconDiv}>
+                <i class="devicon-sequelize-plain"></i>
+            </div>
+        </Motion>
+        <Motion
+        initDeg={randomIntFromInterval(0, 360)}
+        direction={Math.random() > 0.5 ? "clockwise" : "counterclockwise"}
+        velocity={10}
+        radius={50}>
             <SiTypescript style={{
-                width: "58px",
-                height: "58px",
+                width: "44px",
+                height: "44px",
             }}/>
         </Motion>
         <Motion
@@ -23,8 +51,8 @@ const MarqueeFunc = () => (
         velocity={10}
         radius={50}>
             <DiAngularSimple style={{
-                width: "70px",
-                height: "70px",
+                width: "50px",
+                height: "50px",
             }}/>
         </Motion>
         <Motion
@@ -33,8 +61,8 @@ const MarqueeFunc = () => (
         velocity={10}
         radius={50}>
             <DiGithubBadge style={{
-                width: "70px",
-                height: "70px",
+                width: "50px",
+                height: "50px",
             }}/>
         </Motion>
         <Motion
@@ -43,8 +71,8 @@ const MarqueeFunc = () => (
         velocity={10}
         radius={50}>
             <DiHtml5 style={{
-                width: "70px",
-                height: "70px",
+                width: "50px",
+                height: "50px",
             }}/>
         </Motion>
         <Motion
@@ -53,8 +81,8 @@ const MarqueeFunc = () => (
         velocity={10}
         radius={50}>
             <SiOpencv style={{
-                width: "70px",
-                height: "70px",
+                width: "50px",
+                height: "50px",
             }}/>
         </Motion>
         <Motion
@@ -63,8 +91,8 @@ const MarqueeFunc = () => (
         velocity={10}
         radius={50}>
             <DiCss3 style={{
-                width: "70px",
-                height: "70px",
+                width: "50px",
+                height: "50px",
             }}/>
         </Motion>
         <Motion
@@ -73,8 +101,8 @@ const MarqueeFunc = () => (
         velocity={10}
         radius={50}>
             <DiBootstrap style={{
-                width: "70px",
-                height: "70px",
+                width: "50px",
+                height: "50px",
             }}/>
         </Motion>
         <Motion
@@ -83,8 +111,8 @@ const MarqueeFunc = () => (
         velocity={10}
         radius={50}>
             <SiAzuredevops style={{
-                width: "70px",
-                height: "70px",
+                width: "50px",
+                height: "50px",
             }}/>
         </Motion>
         <Motion
@@ -93,8 +121,8 @@ const MarqueeFunc = () => (
         velocity={10}
         radius={50}>
             <SiXamarin style={{
-                width: "70px",
-                height: "70px",
+                width: "50px",
+                height: "50px",
             }}/>
         </Motion>
         <Motion

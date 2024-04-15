@@ -23,7 +23,7 @@ function Home() {
                         <p>Hey there! Welcome to my portfolio!</p>
                     </div>
                 </div>
-                <img src="/images/me.png" className={styles.Avatar} alt="me" />
+                <img src="/images/me2.jpg" className={styles.Avatar} alt="me" />
             </div>
             <div className={styles.MarqueeDiv}>
                 <FadeIn delay="1100" transitionDuration="5000">
